@@ -46,3 +46,19 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
 end
+
+# Gemfile
+
+# old
+group :development, :test do
+  gem "factory_girl_rails"
+  # or
+  gem "factory_girl"
+end
+
+# new
+group :development, :test do
+  gem "factory_bot_rails"
+  # or
+  gem "factory_bot"
+end
